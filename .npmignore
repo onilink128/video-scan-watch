@@ -1,0 +1,9 @@
+.vscode
+.gitignore
+gulpfile.js
+npm-debug.log
+tsconfig.json
+*.tgz
+
+/src/**/*.ts
+!/src/**/*.d.ts

@@ -1,0 +1,51 @@
+{
+  "name": "video-scan-watch",
+  "version": "1.0.0",
+  "description": "A simple node library to watch and scan videos in directories",
+  "main": "index.js",
+  "scripts": {
+    "betaRelease": "gulp --type prerelease --prereleasetag beta",
+    "releaseCandidate": "gulp --type prerelease --prereleasetag rc",
+    "patchRelease": "gulp --type patch",
+    "minorRelease": "gulp --type minor",
+    "majorRelease": "gulp --type major",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onilink128/video-scan-watch.git"
+  },
+  "keywords": [
+    "video",
+    "scan",
+    "watch"
+  ],
+  "author": "Rodrigo Garofalo <rodrigo.garofalo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onilink128/video-scan-watch/issues"
+  },
+  "homepage": "https://github.com/onilink128/video-scan-watch#readme",
+  "dependencies": {
+    "chokidar": "1.6.1",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fluent-ffmpeg": "2.1.2",
+    "guid-typescript": "^1.0.7",
+    "md5-file": "3.1.1",
+    "walk": "2.3.13"
+  },
+  "devDependencies": {
+    "@types/chokidar": "^1.6.0",
+    "@types/fluent-ffmpeg": "0.0.2",
+    "del": "2.2.2",
+    "gulp": "3.9.1",
+    "gulp-json-modify": "^1.0.2",
+    "gulp-typescript": "3.1.6",
+    "semver": "^5.5.0",
+    "typescript": "2.3.2",
+    "yargs": "^8.0.1"
+  },
+  "typescript": {
+    "definition": "index.d.ts"
+  }
+}
